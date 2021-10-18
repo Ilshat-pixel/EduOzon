@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{57AD5693-6B12-49B9-A8EC-6E2C5EC05965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{1E3643DE-1032-4022-AF83-83A3BE31D26B}"
+ProjectSection(SolutionItems) = preProject
+	readme.md = readme.md
+	.gitignore = .gitignore
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2A0F4A2E-2865-4558-B135-970D6A0CAC26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OzonEdu.MerchandiseService", "src\OzonEdu.MerchandiseService\OzonEdu.MerchandiseService.csproj", "{0C731A3B-99AC-4598-9B82-D5F60FDECF17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C731A3B-99AC-4598-9B82-D5F60FDECF17} = {57AD5693-6B12-49B9-A8EC-6E2C5EC05965}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C731A3B-99AC-4598-9B82-D5F60FDECF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C731A3B-99AC-4598-9B82-D5F60FDECF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C731A3B-99AC-4598-9B82-D5F60FDECF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C731A3B-99AC-4598-9B82-D5F60FDECF17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
