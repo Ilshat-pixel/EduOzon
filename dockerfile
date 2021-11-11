@@ -18,6 +18,6 @@ WORKDIR /app
 Expose 80
 Expose 443
 
-COPY --from-publish /app/publish .
+COPY --from=publish /app/publish .
 
 ENTRYPOINT ["dotnet","OzonEdu.MerchandiseService.dll"]

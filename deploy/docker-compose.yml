@@ -30,3 +30,14 @@ services:
       - stock-api
       - emailing-service
       - employees-service
+  merchandise-service:
+    build: 
+      context: ../
+      dockerfile: dockerfile
+    ports:
+      - "8084-80"
+    depends_on:
+      - stock-api
+      - emailing-service
+      - employees-service
+      - supply-service    
